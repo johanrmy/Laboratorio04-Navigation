@@ -32,7 +32,7 @@ namespace Laboratorio04
 
             Item4.Clicked += async (sender, e) =>
             {
-                await Navigation.PushAsync(new ModalPage1());
+                await Navigation.PushModalAsync(new ModalPage1());
             };
 
             Item5.Clicked += async (sender, e) =>
